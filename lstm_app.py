@@ -53,7 +53,7 @@ def predict_next_word(model, tokenizer, text, max_sequence):
     return None
 
 st.title("Next Word Prediction With GRU")
-input_text=st.text_input("Enter the sequence of Words","Therefore our sometimes Sister, now our")
+input_text=st.text_input("Enter the sequence of Words","Therefore our sometimes Brother, now our")
 if st.button("Predict"):
     max_sequence = model.input_shape[1] + 1  # Retrieve the max sequence length from the model input shape
     next_word = predict_next_word(model, tokenizer, input_text, max_sequence)
