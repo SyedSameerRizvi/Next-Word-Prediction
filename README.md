@@ -25,6 +25,3 @@ To check and predict the next words yourself click on the link: [Next Word Predi
 * `next_word_lstm.keras`: Pre-trained LSTM model for next word prediction.
 * `next_word_gru.keras`: Pre-trained GRU model for next word prediction.
 * `tokenizer.pkl`: Tokenizer used to preprocess the input sequences for both models
-
-## Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue if you find any bugs or want to improve the app.
